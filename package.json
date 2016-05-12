@@ -1,0 +1,30 @@
+{
+  "name": "jaycee",
+  "version": "1.0.0",
+  "description": "A dead simple headless CMS built with json-server and ng-admin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnthedesigner/jaycee.git"
+  },
+  "author": "johnthedesigner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnthedesigner/jaycee/issues"
+  },
+  "homepage": "https://github.com/johnthedesigner/jaycee",
+  "dependencies": {
+    "json-server": "^0.8.12",
+    "ng-admin": "^1.0.0-alpha2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

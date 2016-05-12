@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "flower": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "latin_name_1": {
+          "type": "string"
+        },
+        "latin_name_2": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ]
+    },
+    "gallery": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "venue_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title"
+      ]
+    }
+  },
+  "required": [
+    "flower",
+    "gallery"
+  ]
+}
