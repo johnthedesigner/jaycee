@@ -1,0 +1,25 @@
+{
+  "name": "admin",
+  "plural": "admins",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": false
+  },
+  "properties": {
+    "username": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "flowers": {
+      "type": "hasMany",
+      "model": "flower",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

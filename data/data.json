@@ -1,0 +1,23 @@
+{
+  "ids": {
+    "User": 2,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "flower": 3
+  },
+  "models": {
+    "User": {
+      "1": "{\"username\":\"admin\",\"password\":\"$2a$10$IAuvJbJamjAqMyCB9sC4uubtb0DoOfEtN5VkbL.LxmCKVX2gJabEq\",\"email\":\"john@johnthedesigner.com\",\"id\":1}"
+    },
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "flower": {
+      "1": "{\"name\":\"Peony\",\"latin_name\":\"Paeonia\",\"id\":1}",
+      "2": "{\"name\":\"Hydrangea\",\"latin_name\":\"Hydrangea\",\"id\":2}"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+<!--
+Author: W3layouts
+Author URL: https://w3layouts.com/entrar-shadow-flat-form-template/
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JayCee Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/ng-admin.min.css">
+</head>
+<body>
+  <div class="main">
+    <div class="row">
+      <div class="login-form col-lg-4 center">
+        <input type="text" ng-model="main.username" placeholder="username"><br>
+        <input type="password" ng-model="main.password" placeholder="password"><br>
+        <br>
+    
+        <button ng-click="main.register()">Register</button>
+        <button ng-click="main.login()">Login</button>
+        <button ng-click="main.logout()" ng-show="main.isAuthed()">Logout</button>
+      </div>
+    </div>
+  </div>
+  <script src="/js/ng-admin.min.js" type="text/javascript"></script>
+  <script src="/js/admin.js" type="text/javascript"></script>
+</body>
+</html>
